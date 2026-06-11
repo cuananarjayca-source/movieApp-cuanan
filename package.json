@@ -1,4 +1,12 @@
 {
+  "name": "fitness-api",
+  "version": "1.0.0",
+  "description": "Fitness Movie Tracker API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "bcryptjs": "^3.0.3",
     "cors": "^2.8.6",
